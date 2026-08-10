@@ -25,7 +25,7 @@ export const profile = {
   location: "Malang",
   available: true,
   headline: "Rancang, Desain, Kembangkan",
-  bio: "Saya bekerja di dua sisi: sebagai desainer yang menyusun sistem visual dan pengalaman pengguna, sekaligus sebagai developer yang menerjemahkannya jadi kode yang bersih dan cepat. Kombinasi ini membuat saya bisa menjaga konsistensi ide dari file desain sampai produksi.",
+  bio: "Saya bekerja di dua sisi: sebagai desainer yang menyusun desain visual, sekaligus sebagai developer yang menerjemahkannya menjadi kode yang bersih dan cepat. Kombinasi ini membuat saya bisa menjaga konsistensi ide dari file desain sampai produksi.",
   email: "ardhillahalfath@gmail.com",
   socials: {
     github: "https://github.com/",
@@ -55,7 +55,6 @@ export const skills = [
     area: "Pengembangan",
     description: "Membangun antarmuka web yang cepat, aksesibel, dan terukur.",
     items: [
-      "TypeScript",
       "React",
       "Laravel",
       "CodeIgniter",

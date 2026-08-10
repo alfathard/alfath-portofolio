@@ -11,9 +11,11 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
+  SheetTrigger
 } from "@/components/ui/sheet"
 import { navLinks, profile } from "@/lib/data"
+import Image from "next/image"
+import logo from '@/app/logo-100.png'
 
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false)
@@ -21,9 +23,18 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-md">
       <div className="mx-auto flex h-16 w-full max-w-5xl items-center justify-between px-6">
-        <Link href="/" className="font-semibold tracking-tight">
-          {profile.name}
-        </Link>
+        <div className="flex items-end gap-2">
+          <Image
+            src={logo}
+            alt={profile.name}
+            width={32}
+            height={32}
+            className="rounded-full invert"
+          />
+          <Link href="/" className="font-semibold tracking-tight">
+            {profile.name}
+          </Link>
+        </div>
 
         <nav className="hidden items-center gap-1 md:flex">
           {navLinks.map((link) => (

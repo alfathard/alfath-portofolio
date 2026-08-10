@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, Palette } from "lucide-react"
+import { ArrowRight, Mail, Palette, FileText } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -37,9 +37,9 @@ export function Hero() {
           </a>
         </Button>
         <Button size="lg" variant="ghost" asChild>
-          <a href="#contact">
-            <Mail data-icon="inline-start" />
-            Hubungi saya
+          <a href="https://drive.google.com/file/d/1iO_r4uJ2SXBHtsI0aHSINjSYFNyCLrk4/view?usp=sharing">
+            <FileText data-icon="inline-start" />
+            Curriculum Vitae
           </a>
         </Button>
       </div>
