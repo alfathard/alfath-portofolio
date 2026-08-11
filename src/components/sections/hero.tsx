@@ -37,7 +37,7 @@ export function Hero() {
           </a>
         </Button>
         <Button size="lg" variant="ghost" asChild>
-          <a href="https://drive.google.com/file/d/1iO_r4uJ2SXBHtsI0aHSINjSYFNyCLrk4/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1iO_r4uJ2SXBHtsI0aHSINjSYFNyCLrk4/view?usp=sharing" target="_blank">
             <FileText data-icon="inline-start" />
             Curriculum Vitae
           </a>

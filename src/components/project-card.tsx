@@ -16,7 +16,7 @@ import type { Project } from "@/lib/data"
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <Card className="h-full">
+    <Card className="h-full pt-0">
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
         <Image
           src={project.image}

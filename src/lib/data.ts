@@ -72,7 +72,7 @@ export const projects: Project[] = [
     year: "2021",
     tags: ["CodeIgniter", "MySQL"],
     image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=modern%20ecommerce%20web%20dashboard%20on%20laptop%20screen%2C%20product%20grid%20and%20analytics%20charts%2C%20dark%20ui%20theme%2C%20clean%20developer%20workspace%2C%20high%20detail&image_size=landscape_4_3",
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1786377775/Screenshot_2026-08-10_230230_vxfp5n.jpg",
     liveUrl: "https://pantiasuhanyasibu.org/",
   },
   {
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     year: "2023",
     tags: ["Laravel", "MariaDB"],
     image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=realtime%20analytics%20dashboard%20interface%2C%20line%20charts%20and%20data%20tables%2C%20dark%20mode%20web%20app%2C%20crisp%20typography%2C%20professional%20screenshot&image_size=landscape_4_3",
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1786379397/Screenshot_2026-08-10_232943_emavph.jpg",
     liveUrl: "http://sista-fti.unmer.ac.id/",
   },
   {
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     year: "2025",
     tags: ["Laravel", "MySQL", "Whatspie"],
     image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=cms%20admin%20panel%20screenshot%2C%20content%20editor%20with%20sidebar%20navigation%2C%20dark%20interface%2C%20clean%20modern%20saas%20design&image_size=landscape_4_3",
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1786380164/opo_diw5hc.png",
     // repoUrl: "https://github.com/",
   },
   {
@@ -108,7 +108,7 @@ export const projects: Project[] = [
     year: "2026",
     tags: ["UI/UX", "Figma", "Prototyping"],
     image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=mobile%20banking%20app%20ui%20design%20mockup%20on%20dark%20background%2C%20clean%20interface%20screens%2C%20soft%20studio%20lighting%2C%20minimal%20modern%20presentation%2C%20high%20detail&image_size=landscape_4_3",
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1786379759/Screenshot_2026-08-10_233543_khmkks.jpg",
   },
 ]
 
