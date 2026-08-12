@@ -49,6 +49,7 @@ export const skills = [
       "Prototyping",
       "Affinity Design",
       "Graphic Design",
+      "Photoshop"
     ],
   },
   {

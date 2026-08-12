@@ -10,7 +10,7 @@ export function Hero() {
       {profile.available ? (
         <Badge variant="outline" className="mb-6 gap-2">
           <span className="size-1.5 rounded-full bg-emerald-500" />
-          Terbuka untuk proyek baru
+          Open to work
         </Badge>
       ) : null}
 

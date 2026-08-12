@@ -37,9 +37,8 @@ export function Contact() {
           <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             Mari bekerja sama
           </h2>
-          <p className="mt-4 text-muted-foreground">
-            Punya ide produk, kebutuhan redesain, atau butuh bantuan
-            implementasi? Ceritakan singkat, saya akan membalas secepatnya.
+          <p className="mt-4 text-muted-foreground hidden">
+            Hubungi saya melalui email dibawah.
           </p>
 
           <div className="mt-6 flex flex-col gap-2 text-sm">
@@ -50,7 +49,7 @@ export function Contact() {
               <Mail className="size-4" />
               {profile.email}
             </a>
-            <div className="mt-2 flex items-center gap-1">
+            <div className="mt-2 flex items-center gap-1 hidden">
               <Button size="sm" variant="outline" asChild>
                 <Link
                   href={profile.socials.github}
@@ -84,7 +83,7 @@ export function Contact() {
           </div>
         </div>
 
-        <Card>
+        <Card className="hidden">
           <CardContent>
             <form onSubmit={handleSubmit} className="grid gap-4">
               <div className="grid gap-2">
