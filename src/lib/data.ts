@@ -24,13 +24,12 @@ export const profile = {
   role: "Designer & Web Developer",
   location: "Malang",
   available: true,
-  headline: "Rancang, Desain, Kembangkan",
+  headline: "Ardhillah Habibi Al-Fath",
   bio: "Saya bekerja di dua sisi: sebagai desainer yang menyusun desain visual, sekaligus sebagai developer yang menerjemahkannya menjadi kode yang bersih dan cepat. Kombinasi ini membuat saya bisa menjaga konsistensi ide dari file desain sampai produksi.",
   email: "ardhillahalfath@gmail.com",
   socials: {
-    github: "https://github.com/",
-    dribbble: "https://dribbble.com/",
-    linkedin: "https://linkedin.com/in/",
+    instagram: "https://instagram.com/alfath.ardh",
+    pinterest: "https://id.pinterest.com/ardhillahalfath/",
   },
   stats: [
     { label: "Tahun pengalaman", value: "5+" },

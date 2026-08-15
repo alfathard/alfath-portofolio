@@ -4,6 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 import { Code, Mail, Palette, Send } from "lucide-react"
 import { toast } from "sonner"
+import { FaInstagram } from "react-icons/fa6"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -49,34 +50,25 @@ export function Contact() {
               <Mail className="size-4" />
               {profile.email}
             </a>
-            <div className="mt-2 flex items-center gap-1 hidden">
+            <div className="mt-2 flex items-center gap-1">
               <Button size="sm" variant="outline" asChild>
                 <Link
-                  href={profile.socials.github}
+                  href={profile.socials.instagram}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Code data-icon="inline-start" />
-                  GitHub
+                  <FaInstagram data-icon="inline-start" />
+                  Instagram
                 </Link>
               </Button>
               <Button size="sm" variant="outline" asChild>
                 <Link
-                  href={profile.socials.dribbble}
+                  href={profile.socials.pinterest}
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Palette data-icon="inline-start" />
-                  Dribbble
-                </Link>
-              </Button>
-              <Button size="sm" variant="outline" asChild>
-                <Link
-                  href={profile.socials.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LinkedIn
+                  Pinterest
                 </Link>
               </Button>
             </div>
