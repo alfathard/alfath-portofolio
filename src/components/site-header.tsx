@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/sheet"
 import { navLinks, profile } from "@/lib/data"
 import Image from "next/image"
-import logo from '@/app/logo-100.png'
+import logo from "@/app/logo-100.png"
 
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false)
@@ -29,7 +29,7 @@ export function SiteHeader() {
             alt={profile.name}
             width={32}
             height={32}
-            className="rounded-full invert"
+            className="rounded-full invert-0 transition-[filter] dark:invert"
           />
           <Link href="/" className="font-semibold tracking-tight">
             {profile.name}

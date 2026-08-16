@@ -40,10 +40,9 @@ export const profile = {
 export const skills = [
   {
     area: "Desain",
-    description: "Menyusun sistem visual yang konsisten dan mudah dipakai ulang.",
+    description: "Membuat desain grafis yang nyaman dan desain UI/UX yang mudah digunakan serta dipakai ulang.",
     items: [
       "UI/UX Design",
-      "Design System",
       "Figma",
       "Prototyping",
       "Affinity Design",
@@ -52,7 +51,7 @@ export const skills = [
     ],
   },
   {
-    area: "Pengembangan",
+    area: "Coding",
     description: "Membangun antarmuka web yang cepat, aksesibel, dan terukur.",
     items: [
       "React",
@@ -110,6 +109,28 @@ export const projects: Project[] = [
     image:
       "https://res.cloudinary.com/gb0nhfey/image/upload/v1786379759/Screenshot_2026-08-10_233543_khmkks.jpg",
   },
+  {
+    slug: "koperasi-rkb",
+    title: "Koperasi RKB",
+    summary:
+      "Website Pengelolaan Koperasi menggunakan Codeigniter dan Postgres.",
+    role: "Full-stack Developer",
+    year: "2020",
+    tags: ["CodeIgniter", "Postgres"],
+    image:
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1786888942/koperasi_login_htmgap.png"
+  },
+  {
+    slug: "Landing Page VEA",
+    title: "Landing Page VEA",
+    summary:
+      "Landing Page PT Visi Energi Abadi dibuat menggunakan scss dan html",
+    role: "Full-stack Developer",
+    year: "2020",
+    tags: ["Scss", "HTML"],
+    image:
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1786889736/Screenshot_2026-08-16_211518_mtygbo.jpg"
+  }
 ]
 
 export const designWorks: DesignWork[] = [

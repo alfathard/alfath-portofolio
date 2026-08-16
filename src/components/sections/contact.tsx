@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { Code, Mail, Palette, Send } from "lucide-react"
+import { Mail, Palette, Send } from "lucide-react"
 import { toast } from "sonner"
 import { FaInstagram } from "react-icons/fa6"
 
