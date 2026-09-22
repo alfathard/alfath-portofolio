@@ -7,7 +7,6 @@ export function SiteFooter() {
         <p>
           © {new Date().getFullYear()} {profile.name}
         </p>
-        <p>Made with Next.js & shadcn/ui</p>
       </div>
     </footer>
   )
