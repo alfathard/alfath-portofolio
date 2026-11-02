@@ -1,4 +1,5 @@
 import { ProjectCard } from "@/components/project-card"
+import { ScrollReveal } from "@/components/scroll-reveal"
 import { projects } from "@/lib/data"
 
 export function Projects() {
@@ -15,8 +16,14 @@ export function Projects() {
       </p>
 
       <div className="mt-8 grid gap-5 sm:grid-cols-2">
-        {projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
+        {projects.map((project, index) => (
+          <ScrollReveal
+            key={project.slug}
+            delay={(index % 4) * 120}
+            className="h-full"
+          >
+            <ProjectCard project={project} />
+          </ScrollReveal>
         ))}
       </div>
     </section>

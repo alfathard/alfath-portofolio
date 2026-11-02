@@ -3,6 +3,7 @@
 import * as React from "react"
 import Image from "next/image"
 
+import { ScrollReveal } from "@/components/scroll-reveal"
 import { Badge } from "@/components/ui/badge"
 import {
   Dialog,
@@ -28,30 +29,35 @@ export function Gallery() {
       </p>
 
       <div className="mt-8 columns-2 gap-4 md:columns-3 [&>*]:mb-4">
-        {designWorks.map((work) => (
-          <button
+        {designWorks.map((work, index) => (
+          <ScrollReveal
             key={work.slug}
-            type="button"
-            onClick={() => setSelected(work)}
-            className="group relative block w-full overflow-hidden rounded-xl ring-1 ring-foreground/10 transition-all hover:ring-foreground/25 focus-visible:ring-3 focus-visible:ring-ring/50"
+            delay={(index % 6) * 90}
+            className="break-inside-avoid"
           >
-            <Image
-              src={work.image}
-              alt={work.title}
-              width={work.orientation === "portrait" ? 600 : 800}
-              height={work.orientation === "portrait" ? 800 : 600}
-              sizes="(min-width: 768px) 33vw, 50vw"
-              className="h-auto w-full transition-transform duration-300 group-hover:scale-105"
-            />
-            <span className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col items-start gap-1 bg-gradient-to-t from-black/80 to-transparent p-3 opacity-0 transition-opacity group-hover:opacity-100">
-              <span className="text-sm font-medium text-white">
-                {work.title}
+            <button
+              type="button"
+              onClick={() => setSelected(work)}
+              className="group relative block w-full overflow-hidden rounded-xl ring-1 ring-foreground/10 transition-all hover:ring-foreground/25 focus-visible:ring-3 focus-visible:ring-ring/50"
+            >
+              <Image
+                src={work.image}
+                alt={work.title}
+                width={work.orientation === "portrait" ? 600 : 800}
+                height={work.orientation === "portrait" ? 800 : 600}
+                sizes="(min-width: 768px) 33vw, 50vw"
+                className="h-auto w-full transition-transform duration-300 group-hover:scale-105"
+              />
+              <span className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col items-start gap-1 bg-gradient-to-t from-black/80 to-transparent p-3 opacity-0 transition-opacity group-hover:opacity-100">
+                <span className="text-sm font-medium text-white">
+                  {work.title}
+                </span>
+                <span className="text-xs text-white/70">
+                  {work.type} · {work.year}
+                </span>
               </span>
-              <span className="text-xs text-white/70">
-                {work.type} · {work.year}
-              </span>
-            </span>
-          </button>
+            </button>
+          </ScrollReveal>
         ))}
       </div>
 

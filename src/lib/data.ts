@@ -233,6 +233,24 @@ export const designWorks: DesignWork[] = [
     image:
       "https://res.cloudinary.com/gb0nhfey/image/upload/v1786254753/Instagram_post_-_3_fmevrt.jpg",
   },
+  {
+    slug: "finalyear",
+    title: "Final Year",
+    type: "Instagram Post",
+    year: "2026",
+    orientation: "portrait",
+    image:
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1793590614/Last_Year_plfi5m.webp",
+  },
+  {
+    slug: "graduate",
+    title: "Graduate",
+    type: "Instagram Post",
+    year: "2026",
+    orientation: "portrait",
+    image:
+      "https://res.cloudinary.com/gb0nhfey/image/upload/v1793590798/S8_ta85of.jpg",
+  }
 ]
 
 export const navLinks = [
